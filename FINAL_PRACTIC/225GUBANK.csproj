@@ -71,31 +71,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Noviy.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="PlataReg.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Vhod.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Page1.xaml.cs">
       <DependentUpon>Page1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Noviy.xaml.cs">
-      <DependentUpon>Noviy.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="PlataReg.xaml.cs">
-      <DependentUpon>PlataReg.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Vhod.xaml.cs">
-      <DependentUpon>Vhod.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

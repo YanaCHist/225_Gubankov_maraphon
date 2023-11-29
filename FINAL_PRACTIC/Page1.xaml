@@ -16,7 +16,7 @@
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Vertical" Grid.Row="0" Background="#808080">
+        <StackPanel Orientation="Vertical" Grid.Row="0" Background="Black">
             <TextBlock x:Name="Zagalovok" FontSize="23" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="89,14,0,14" Foreground="White" FontFamily="Open Sans Semibold" Width="271"><Run Text="MARATHON SKILLS 2024"/></TextBlock>
         </StackPanel>
 
@@ -28,7 +28,7 @@
         <Button x:Name="Login" Grid.Row="2" Width="84" HorizontalAlignment="Right" Height="28" Margin="0,0,32.6,0" Content="Login" />
 
 
-        <Button x:Name="Nazad" Grid.Row="0" Width="60" HorizontalAlignment="Left" Height="28" Margin="0,10,0,22" Content="Назад" Click="Nazad_Click"/>
+        <Button x:Name="Nazad" Grid.Row="0" Width="60" HorizontalAlignment="Left" Height="28" Margin="0,10,0,22" Content="Назад" />
 
         <Frame Grid.RowSpan="3" x:Name="Raniy" NavigationUIVisibility="Hidden"></Frame>
 

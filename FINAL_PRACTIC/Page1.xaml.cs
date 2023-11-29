@@ -32,12 +32,10 @@ namespace FINAL_PRACTIC
 
         private void Uchastnik_Click(object sender, RoutedEventArgs e)
         {
-            Raniy.Navigate(new Page2());
         }
 
         private void Noviy_Click(object sender, RoutedEventArgs e)
         {
-            Raniy.Navigate(new Page3());
         }
     }
 }
